@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Courses</title>
+    <link rel="stylesheet" href="./styles/registered.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="menu">
+          <label for="menu-checkbox" class="close-menu">&times;</label>
+          <ul>
+            <li><a class="web-name" href="index.html">Home</a></li>
+            <li><a href="./profile.html" id="profile">Profile</a></li>
+            <li>
+              <a href="./course_registration.html" id="mycourses">Course Registration</a>
+            </li>
+            <li><a href="#" id="logout">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="registered-courses">
+        <!-- Registered courses will be dynamically added here -->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Yahya Mohamed. All rights reserved.</p>
+    </footer>
+    <script type="module" src="./src/registered.js"></script>
+    <script src="./src/auth.js"></script>
+  </body>
+</html>

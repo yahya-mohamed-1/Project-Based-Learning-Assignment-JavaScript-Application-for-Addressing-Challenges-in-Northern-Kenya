@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yahya Mohamed - Register!</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="menu">
+          <label for="menu-checkbox" class="close-menu">&times;</label>
+          <ul>
+            <li><a class="web-name" href="index.html">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="signup-container">
+      <h2>Sign Up</h2>
+      <form id="signup">
+        <input id="userName" type="text" placeholder="Username" required />
+        <input id="eMail" type="email" placeholder="Email" required />
+        <div class="password-container">
+          <input id="pword" type="password" placeholder="Password" required />
+          <span class="eye-icon" id="togglePassword">&#128065;</span>
+        </div>
+        <button type="submit" class="signup-button">Sign Up</button>
+      </form>
+      <div class="login-text">
+        Already have an account? <a href="./login.html">Login</a>
+      </div>
+      <p id="signup-message">Successful registration!</p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Yahya Mohamed. All rights reserved.</p>
+    </footer>
+    <script type="module" src="./src/signup.js"></script>
+  </body>
+</html>

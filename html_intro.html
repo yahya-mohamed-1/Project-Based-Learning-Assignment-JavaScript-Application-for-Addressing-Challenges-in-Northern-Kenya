@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yahya Mohamed - Introduction to HTML</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="menu">
+          <label for="menu-checkbox" class="close-menu">&times;</label>
+          <ul>
+            <li><a class="web-name" href="index.html">Home</a></li>
+            <li><a href="./registered_course.html" id="mycourses">My Courses</a></li>
+            <li><a href="#" id="logout">Logout</a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="top-html-background"></div>
+    <div class="html-intro">
+      <h1>Introduction to HTML</h1>
+      <p>
+        HTML, or HyperText Markup Language, is the standard markup language used
+        to create web pages. It forms the backbone of every web application and
+        website, structuring the content so that web browsers can display it as
+        intended. HTML uses a system of tags and attributes to define elements
+        within a document.
+      </p>
+
+      <h2>What is HTML?</h2>
+      <p>
+        HTML is the cornerstone of web development, allowing developers to
+        structure content on the web. Developed by Tim Berners-Lee in 1991, HTML
+        has evolved through various versions to become more powerful and
+        versatile, supporting modern web applications. Its primary purpose is to
+        create a structured document by denoting elements such as headings,
+        paragraphs, links, images, and more.
+      </p>
+
+      <h2>Basic Structure of an HTML Document</h2>
+      <p>
+        Every HTML document starts with a
+        <code>&lt;!DOCTYPE html&gt;</code> declaration, indicating the document
+        type and version of HTML. The main container is the
+        <code>&lt;html&gt;</code> element, which contains the
+        <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> sections. The
+        <code>&lt;head&gt;</code> includes metadata, the document title, and
+        links to external resources like CSS and JavaScript. The
+        <code>&lt;body&gt;</code> holds the visible content of the web page,
+        including text, images, and interactive elements.
+      </p>
+
+      <h2>HTML Tags and Attributes</h2>
+      <p>
+        HTML uses tags to define elements. Tags are enclosed in angle brackets,
+        with opening and closing tags indicating the start and end of an
+        element. Some tags are self-closing. Attributes provide additional
+        information about elements, such as <code>id</code>, <code>class</code>,
+        <code>style</code>, <code>src</code>, and <code>href</code>. Commonly
+        used tags include headings (<code>&lt;h1&gt;</code> to
+        <code>&lt;h6&gt;</code>), paragraphs (<code>&lt;p&gt;</code>), links
+        (<code>&lt;a&gt;</code>), images (<code>&lt;img&gt;</code>), and
+        sections (<code>&lt;div&gt;</code> and <code>&lt;span&gt;</code>).
+      </p>
+
+      <h2>Text Formatting and Semantics</h2>
+      <p>
+        HTML provides tags for formatting text and emphasizing content. Bold
+        text can be marked with <code>&lt;b&gt;</code> or
+        <code>&lt;strong&gt;</code>, while italics use <code>&lt;i&gt;</code> or
+        <code>&lt;em&gt;</code>. Lists are created using
+        <code>&lt;ul&gt;</code> for unordered lists and
+        <code>&lt;ol&gt;</code> for ordered lists, with list items enclosed in
+        <code>&lt;li&gt;</code>. Quotes are handled by
+        <code>&lt;blockquote&gt;</code> for block quotes and
+        <code>&lt;q&gt;</code> for inline quotes. Code snippets are formatted
+        with <code>&lt;code&gt;</code> and <code>&lt;pre&gt;</code>.
+      </p>
+
+      <h2>Links and Navigation</h2>
+      <p>
+        Creating hyperlinks is essential for web navigation. The
+        <code>&lt;a&gt;</code> tag defines links, using the
+        <code>href</code> attribute to specify the URL. Links can point to other
+        pages within the same site (internal links), external websites (external
+        links), or trigger actions like sending an email (email links). The
+        <code>target</code> attribute can open links in new tabs or windows.
+      </p>
+
+      <h2>Images and Multimedia</h2>
+      <p>
+        Images enhance the visual appeal of web pages. The
+        <code>&lt;img&gt;</code> tag embeds images, requiring the
+        <code>src</code> attribute for the image URL and <code>alt</code> for
+        alternative text. Additional attributes like <code>width</code> and
+        <code>height</code> control the image size. HTML5 introduced
+        <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> tags for
+        embedding multimedia content directly into web pages, providing
+        attributes for controls and sources.
+      </p>
+
+      <h2>Tables</h2>
+      <p>
+        Tables organize data in rows and columns. The
+        <code>&lt;table&gt;</code> tag creates a table, with
+        <code>&lt;tr&gt;</code> for table rows, <code>&lt;td&gt;</code> for
+        table cells, and <code>&lt;th&gt;</code> for header cells. Attributes
+        like <code>border</code>, <code>cellpadding</code>, and
+        <code>cellspacing</code> adjust table appearance. Cells can be merged
+        using <code>colspan</code> and <code>rowspan</code> attributes to span
+        multiple columns or rows.
+      </p>
+
+      <h2>Forms and Input</h2>
+      <p>
+        Forms collect user input. The <code>&lt;form&gt;</code> tag encompasses
+        form elements and uses the <code>action</code> attribute to specify the
+        server endpoint and <code>method</code> to define the submission method
+        (GET or POST). Input elements include <code>&lt;input&gt;</code> for
+        single-line text, <code>&lt;textarea&gt;</code> for multi-line text,
+        <code>&lt;select&gt;</code> for drop-down lists, and
+        <code>&lt;button&gt;</code> for clickable buttons. Input types cover
+        various data, from text and passwords to emails and file uploads.
+      </p>
+
+      <h2>HTML5 Semantic Elements</h2>
+      <p>
+        HTML5 introduced new elements to enhance document structure and
+        semantics, improving accessibility and SEO. Semantic elements like
+        <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>,
+        <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>,
+        <code>&lt;aside&gt;</code>, and <code>&lt;nav&gt;</code> provide
+        meaningful context to the content, making it easier for browsers and
+        assistive technologies to interpret the document's structure.
+      </p>
+
+      <h2>Best Practices</h2>
+      <p>
+        Writing clean and maintainable HTML is crucial for efficient web
+        development. Proper indentation and commenting improve readability.
+        Accessibility considerations ensure that web content is usable by people
+        with disabilities. SEO best practices, like using descriptive tags and
+        attributes, help improve search engine rankings and visibility.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        HTML is an essential skill for anyone interested in web development.
+        Understanding its syntax, structure, and various elements will provide a
+        solid foundation for creating and designing web pages. As you progress,
+        you can build on this knowledge with CSS for styling and JavaScript for
+        interactivity. Happy coding!
+      </p>
+    </div>
+    <script src="./src/auth.js"></script>
+    <footer>
+      <p>&copy; 2024 Yahya Mohamed. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

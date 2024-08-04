@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yahya Mohamed - Login!</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="menu">
+          <label for="menu-checkbox" class="close-menu">&times;</label>
+          <ul>
+            <li><a class="web-name" href="index.html">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="login">
+        <input id="uname" type="text" placeholder="Username" required />
+        <div class="password-container">
+          <input id="pword" type="password" placeholder="Password" required />
+          <span class="eye-icon" id="togglePassword">&#128065;</span>
+        </div>
+        <button class="login-button">Login</button>
+      </form>
+      <button id="forgot-password">Forgot Password?</button>
+      <div class="register-text">
+        Not yet a member? <a href="./signup.html">Register</a>
+      </div>
+      <p id="login-error">Incorrect username and/or password!</p>
+    </div>
+    <footer>
+      <p>&copy; 2024 Yahya Mohamed. All rights reserved.</p>
+    </footer>
+    <script type="module" src="./src/login.js"></script>
+  </body>
+</html>
